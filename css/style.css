@@ -60,6 +60,13 @@
       background: linear-gradient(to bottom right, #111111, darkgray);
       box-shadow: 0 0 1px red;
   }
+
+  .key-label{
+      width: 100%;
+      position: absolute;
+      color: white;
+      font-size: 20px;
+  }
   
   .start-key {
       transform: rotate(45deg) translate(-50%, calc(-100% + -5vh));
@@ -68,6 +75,12 @@
   .start-key:active {
       transform: rotate(45deg) translate(-50%, calc(-100% + -4.3vh));
   }
+
+  .start-key .key-label {
+    top: -60px;
+    left: 10px;
+    transform: rotate(-45deg);
+    }
   
   .adjustment-key {
       transform: rotate(90deg) translate(-50%, calc(-100% + -5vh));
@@ -85,6 +98,12 @@
   .reset-key:active {
       transform: rotate(135deg) translate(-50%, calc(-100% + -4.3vh));
   }
+
+  .reset-key .key-label {
+    top: -40px;
+    left: -20px;
+    transform: rotate(-135deg);
+    }
   
   .internal-dial {
       position: absolute;
