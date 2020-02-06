@@ -8,7 +8,7 @@
       position: relative;
       width: 60vh;
       height: 60vh;
-      margin: 0 auto;
+      margin: 10vh auto 0;
       background: #01FF70;
   }
   
@@ -64,7 +64,7 @@
   .key-label{
       width: 100%;
       position: absolute;
-      color: white;
+      color: navy;
       font-size: 20px;
   }
   
@@ -128,7 +128,7 @@
       background: white;
       border-radius: 50%;
       border: 1px solid #111111;
-      box-shadow: inset 0px 0px 5px #111111;
+      box-shadow: inset 0px 0px 4px #FF4136;
       transform-origin: 0 0;
       z-index: 1;
   }
