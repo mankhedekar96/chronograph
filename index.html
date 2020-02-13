@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chronograph</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="dial" class="dial">
+            <div id="internalDial" class="internal-dial">
+                <div id="centre" class="centre">
+                </div>
+                <div id="secondsHand" class="hand second-hand">
+                </div>
+                <div id="minutesHand" class="hand minute-hand">
+                </div>
+                <div id="hoursHand" class="hand hour-hand">
+                </div>
+                <div id="stopwatchSeconds" class="stopwatch stopwatch-seconds">
+                    <div id="centre" class="centre">
+                    </div>
+                    <div id="stopwatchSecondsHand" class="hand">
+                    </div>
+                </div>
+                <div id="stopwatchMinutes" class="stopwatch stopwatch-minutes">
+                    <div id="centre" class="centre">
+                    </div>
+                    <div id="stopwatchMinutesHand" class="hand">
+                    </div>
+                </div>
+                <div id="stopwatchHours" class="stopwatch stopwatch-hours">
+                    <div id="centre" class="centre">
+                    </div>
+                    <div id="stopwatchHoursHand" class="hand">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="startKey" class="dial-key start-key">
+            <div class="key-head"></div>
+            <div class="key-body"></div>
+            <div class="key-label"> Start / Stop</div>
+        </div>
+        <div id="adjustmentKey" class="dial-key adjustment-key">
+            <div class="key-head"></div>
+            <div class="key-body"></div>
+        </div>
+        <div id="resetKey" class="dial-key reset-key" onclick="resetStopWatch()">
+            <div class="key-head"></div>
+            <div class="key-body"></div>
+            <div class="key-label"> Reset </div>
+        </div>
+    </div>
+    <p id="stopwatchCounter" class="stopwatch-counter">
+
+    </p>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
