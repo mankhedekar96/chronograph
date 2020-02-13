@@ -1,0 +1,23 @@
+{
+  "name": "chronograph",
+  "version": "1.0.0",
+  "description": "I created Chronograph watch.  It consist of a Stopwatch and an analog watch.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mankhedekar96/chronograph.git"
+  },
+  "author": "Manish Khedekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mankhedekar96/chronograph/issues"
+  },
+  "homepage": "https://mankhedekar96.github.io/chronograph",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
